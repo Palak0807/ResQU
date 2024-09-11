@@ -18,11 +18,11 @@ TextView tv;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-        edUserName=findViewById(R.id.editTextAppFullName);
-        edEmail=findViewById(R.id.editTextAppAddress);
-        edPassword=findViewById(R.id.editTextAppContactNumber);
-        edConfirm=findViewById(R.id.editTextAppFees);
-        btn=findViewById(R.id.buttonBookAppointment);
+        edUserName=findViewById(R.id.editTextBMBFullName);
+        edEmail=findViewById(R.id.editTextBMBAddress);
+        edPassword=findViewById(R.id.editTextBMBPinCode);
+        edConfirm=findViewById(R.id.editTextBMBContactNumber);
+        btn=findViewById(R.id.buttonBMBAppointment);
         tv=findViewById(R.id.textViewExistUser);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override

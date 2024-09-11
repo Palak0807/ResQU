@@ -8,7 +8,7 @@
     tools:context=".RegistrationActivity">
 
     <EditText
-        android:id="@+id/editTextAppFees"
+        android:id="@+id/editTextBMBContactNumber"
         android:layout_width="363dp"
         android:layout_height="64dp"
         android:layout_marginTop="28dp"
@@ -26,10 +26,10 @@
         android:textColorHint="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppContactNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBPinCode" />
 
     <EditText
-        android:id="@+id/editTextAppAddress"
+        android:id="@+id/editTextBMBAddress"
         android:layout_width="363dp"
         android:layout_height="64dp"
         android:layout_marginTop="28dp"
@@ -47,10 +47,10 @@
         android:textColorHint="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppFullName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBFullName" />
 
     <EditText
-        android:id="@+id/editTextAppContactNumber"
+        android:id="@+id/editTextBMBPinCode"
         android:layout_width="363dp"
         android:layout_height="64dp"
         android:layout_marginTop="28dp"
@@ -68,7 +68,7 @@
         android:textColorHint="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBAddress" />
 
     <TextView
         android:id="@+id/textView"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <TextView
-        android:id="@+id/textViewApp"
+        android:id="@+id/textViewBMBApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextAppFullName"
+        android:id="@+id/editTextBMBFullName"
         android:layout_width="363dp"
         android:layout_height="64dp"
         android:layout_marginTop="44dp"
@@ -118,10 +118,10 @@
         android:textColorHint="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewApp" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMBApp" />
 
     <Button
-        android:id="@+id/buttonBookAppointment"
+        android:id="@+id/buttonBMBAppointment"
         android:layout_width="332dp"
         android:layout_height="0dp"
         android:layout_marginTop="28dp"
@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBContactNumber" />
 
     <TextView
         android:id="@+id/textViewExistUser"
@@ -142,5 +142,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBookAppointment" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonBMBAppointment" />
 </androidx.constraintlayout.widget.ConstraintLayout>
